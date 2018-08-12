@@ -4,8 +4,7 @@ const bot = new Discord.Client();
 
 var prefix = ("!");
 
-//bot.login(process.env.TOKEN);
-bot.login('NDc0MzcyNzM4NjM5OTg2Njg4.Dkpfvg.sWakLkUlGS_ay2seAaiUVCRwmi0');
+bot.login(process.env.TOKEN);
 
 bot.on('ready', () => {
     bot.user.setPresence({ game: { name: '!infos • Private Game', type: 0} });
